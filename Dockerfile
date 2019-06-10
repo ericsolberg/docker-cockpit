@@ -1,5 +1,5 @@
 FROM agentejo/cockpit
 
-ADD container-entrypoint.sh /
+ADD entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]
 
