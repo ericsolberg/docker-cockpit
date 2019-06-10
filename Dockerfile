@@ -1,5 +1,6 @@
 FROM agentejo/cockpit
 
-ADD entrypoint.sh /
+copy ./entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
