@@ -2,7 +2,7 @@
 
 This Dockerfile is a quick fix for the agentejo/cockpit Docker image.
 
-The agentejo/cockpit image maps a volume for the CMS data storage. This allows you to persistent your CMS data when the docker image is stopped/restarted.
+The agentejo/cockpit image maps a volume for the CMS data storage. This allows you to persist your CMS data when the docker image is stopped/restarted.
 
 However, the agentejo/cockpit has one flaw- it doesn't correctly initialize this directory when it is first run.
 
